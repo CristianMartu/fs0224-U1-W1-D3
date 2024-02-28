@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    text-align: center;
+}
+header img {
+    width: 20vh;
+    padding: 5px;
+}
+header hr{
+    border: none; 
+    border-top: 1px solid yellow;
+    margin: 0 0;
+}
+header p{
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(245, 238, 166, 0.2);
+    font-size: 0.6em;
+}
+main, footer{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+main hr{
+    border: none; 
+    border-top: 1px solid skyblue;
+}
+#featured{
+    border: none; 
+    border-left: 2px solid yellow;   
+}
+#featured h2{
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+#featured p{
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 0.8em;
+}
+
+#s_image h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.4em;
+}
+#sally_vegas{
+    text-align: center;
+    margin-top: 5px;
+    color:rgba(151, 156, 142, 0.7);
+}
+#s_image img{
+    width: 100%;
+    border-radius: 2%;
+}
+#s_method p{
+    margin-left: 2.5em;
+}
